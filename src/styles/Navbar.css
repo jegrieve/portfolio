@@ -4,6 +4,7 @@
 
 .home-name {
   font-size: 32px;
+  color: white;
 }
 
 .home-dev {
@@ -12,4 +13,10 @@
 
 .nav-item-link {
   font-size: 20px;
+}
+
+.homepage-container {
+  padding: 0;
+  margin: 0;
+  padding-top: 15px;
 }
