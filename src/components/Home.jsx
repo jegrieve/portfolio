@@ -3,6 +3,7 @@ import "../styles/Home.css";
 import TheHut1 from "../assets/TheHut1.PNG";
 import blabber1 from "../assets/blabber1.PNG";
 import GithubLogo from "../assets/Github-logo.png";
+import { NavHashLink } from 'react-router-hash-link';
 
 const Home = () => {
 
@@ -35,7 +36,11 @@ const Home = () => {
                     TheHut is a social website where users can post text, links, images and videos.
                     Posts can then be sorted by most liked, newest, etc.
                     </div>
-                    <div>Link to route</div>
+                    <div>
+                        <NavHashLink to = {"/projects#TheHut"} > 
+                            <button className = "btn btn-primary">View More Details</button>
+                        </NavHashLink>
+                    </div>
                 </div>
                 <div className = "col-md-6">
                     <div className = "home-project-title home-blabber">blabber</div>
@@ -46,7 +51,11 @@ const Home = () => {
                     blabber is a social website, where users can send messages to others.
                     Join servers, create channels, and chat with others.
                     </div>
-                    <div>Link to route</div>
+                    <div>
+                        <NavHashLink to = {"/projects#blabber"} > 
+                            <button className = "btn btn-primary">View More Details</button>
+                        </NavHashLink>
+                    </div>
                 </div>
             </div>
 

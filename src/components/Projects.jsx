@@ -17,7 +17,7 @@ const Projects = () => {
             <hr />
             <div className = "row">
                 <div className = "col-lg-12">
-                    <div className = "projects-title the-hut-title">TheHut</div>
+                    <div id = "TheHut" className = "projects-title the-hut-title">TheHut</div>
                 </div>
             </div>
             <div className = "row projects-padding">
@@ -58,7 +58,7 @@ const Projects = () => {
             <hr />
             <div className = "row">
                 <div className = "col-lg-12">
-                    <div className = "projects-title blabber-title">blabber</div>
+                    <div id = "blabber" className = "projects-title blabber-title">blabber</div>
                 </div>
             </div>
             <div className = "row projects-padding">
