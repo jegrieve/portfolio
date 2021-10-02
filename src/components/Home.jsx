@@ -15,7 +15,7 @@ const Home = () => {
                 </div>
                 <div className = "col-md-8 d-flex justify-content-center">
                     <div className = "home-info">
-                        I'm a fullstack developer currently based in the greater Vancouver area. I am passionate about working on development projects, and learning
+                        I'm a full stack developer currently based in the greater Vancouver area. I am passionate about working on development projects, and learning
                         new technologies.
                     </div>
                 </div>
@@ -27,33 +27,31 @@ const Home = () => {
                 </div>
             </div>
             <div className = "row">
-                <div className = "col-md-6">
+                <div className = "col-md-12 col-lg-6">
                     <div className = "home-project-title home-hut">TheHut</div>
                     <div>
                         <img className = "zoom-in" src = {TheHut1} width = "450" alt = "TheHut mainpage"/>
                     </div>
                     <div className = "home-body">
-                    TheHut is a social website where users can post text, links, images and videos.
-                    Posts can then be sorted by most liked, newest, etc.
+                    TheHut is a social website where users share text, images and videos.
                     </div>
                     <div>
                         <NavHashLink to = {"/projects#TheHut"} > 
-                            <button className = "btn btn-primary">View More Details</button>
+                            <button className = "btn btn-warning the-hut-details-btn">View More Details</button>
                         </NavHashLink>
                     </div>
                 </div>
-                <div className = "col-md-6">
+                <div className = "col-md-12 col-lg-6">
                     <div className = "home-project-title home-blabber">blabber</div>
                     <div>
                         <img className = "zoom-in" src = {blabber1} width = "450" alt = "blabber homepage"/>
                     </div>
                     <div className = "home-body">
-                    blabber is a social website, where users can send messages to others.
-                    Join servers, create channels, and chat with others.
+                    blabber is a community messaging app, where users can send messages to others, in various communities.
                     </div>
                     <div>
                         <NavHashLink to = {"/projects#blabber"} > 
-                            <button className = "btn btn-primary">View More Details</button>
+                            <button className = "btn btn-danger blabber-details-btn">View More Details</button>
                         </NavHashLink>
                     </div>
                 </div>

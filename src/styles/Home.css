@@ -71,3 +71,24 @@
 .zoom-in:hover {
   transform: scale(1.1);
 }
+
+.the-hut-details-btn {
+  background-color: #f9a826;
+  color: white;
+  border: none;
+}
+
+.the-hut-details-btn:hover {
+  background-color: #f9a826;
+}
+
+.blabber-details-btn {
+  background-color: #f50057;
+  color: white;
+  border: none;
+}
+
+.blabber-details-btn:hover {
+  color: black;
+  background-color: #f50057;
+}
