@@ -15,10 +15,12 @@
 
 .the-hut-title {
   color: #f9a826;
+  font-weight: bold;
 }
 
 .blabber-title {
   color: #f50057;
+  font-weight: bold;
 }
 
 .projects-body {
@@ -39,6 +41,61 @@
 
 .zoom-in:hover {
   transform: scale(1.1);
+}
+
+.the-hut-colour {
+  color: #f9a826;
+  font-weight: bold;
+}
+
+.blabber-colour {
+  color: #f50057;
+
+  font-weight: bold;
+}
+
+.react-colour {
+  color: rgb(97, 218, 251);
+  font-weight: bold;
+}
+
+.rails-colour {
+  color: rgb(197, 47, 36);
+  font-weight: bold;
+}
+
+.aws-colour {
+  color: rgb(255, 153, 0);
+  font-weight: bold;
+}
+
+.heroku-colour {
+  color: rgb(100, 74, 134);
+  font-weight: bold;
+}
+
+.giphy-colour {
+  color: rgb(0, 255, 153);
+  font-weight: bold;
+}
+
+.bootstrap-colour {
+  color: rgb(126, 18, 249);
+  font-weight: bold;
+}
+
+.app-features {
+  font-size: 19px;
+}
+
+.app-features-title {
+  font-size: 21px;
+  text-decoration: underline;
+  color: white;
+}
+
+.padding-bottom {
+  padding-bottom: 50px;
 }
 
 @media only screen and (max-width: 1200px) {

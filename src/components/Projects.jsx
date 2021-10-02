@@ -26,18 +26,29 @@ const Projects = () => {
                 </div>
                 <div className = "col-lg-6 d-flex justify-content-center align-items-center">
                     <div className = "projects-body">
-                        TheHut is a social website where users can post text, links, images and videos.
-                        These posts can then be commented on, liked and sorted by most liked, newest etc.
+                        TheHut is a social website where users share text, images and videos.
+                        <div className = "app-features-title">Features include:</div>
+                        <ul className = "app-features">
+                            <li>Create/Edit/Delete posts, users, comments, boards, comment replies.</li>
+                            <li>Posts contain text/images/videos.</li>
+                            <li>Like posts, and sort by most-liked, newest, etc.</li>
+                            <li>Comment on posts, aswell as reply to comments.</li>
+                            <li>View posts from different boards.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div className = "row projects-padding">
                 <div className = "col-lg-6 d-flex justify-content-center align-items-center">
                     <div className = "projects-body">
-                        TheHut is a fullstack application using
-                        React on the frontend and Ruby On Rails on the backend.
-                        AWS is used to store user submitted images online, and the app
-                        is hosted on Heroku. View the app live here: test.website
+                    <div className = "app-features-title">Technologies</div>
+                        <ul className = "app-features">
+                            <li>Frontend: <span className = "react-colour">React</span> + <span className = "bootstrap-colour">Bootstrap</span></li>
+                            <li>Backend: <span className = "rails-colour">Ruby On Rails</span></li>
+                            <li>Web Services: <span className = "aws-colour"> AWS </span>(image hosting), <span className = "heroku-colour">Heroku</span> (app hosting)</li>
+                        </ul>
+                        <div>Checkout the app here:</div>
+                        <div>Checkout the repo here:</div>
                     </div>
                 </div>
                 <div className = "col-lg-6 d-flex justify-content-center">
@@ -56,20 +67,29 @@ const Projects = () => {
                 </div>
                 <div className = "col-lg-6 d-flex justify-content-center align-items-center">
                     <div className = "projects-body">
-                        blabber is a social website, where users can send messages to others.
-                        Users can join/create servers and within the servers join/create channels to begin
-                        chatting with others.
+                        blabber is a community messaging app, where users can send messages to others, in various communities.
+                        <div className = "app-features-title">Features include:</div>
+                        <ul className = "app-features">
+                            <li>Create/Edit/Delete servers, channels, messages, users.</li>
+                            <li>Messages can contain text, images, emojis, videos and GIFs.</li>
+                            <li>Servers can be favourited and the feed can be sorted-by favourites.</li>
+                            <li>View user profiles and recent activity.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div className = "row projects-padding">
+            <div className = "row projects-padding  padding-bottom">
                 <div className = "col-lg-6 d-flex justify-content-center align-items-center">
                     <div className = "projects-body">
-                        blabber is a fullstack application with
-                        React on the frontend and Ruby On Rails on the backend.
-                        AWS is used to store user submitted images online, and the app
-                        is hosted on Heroku. GIPHY api is used to send GIFs.
-                        View the app live here: test.website
+                        <div className = "app-features-title">Technologies</div>
+                        <ul className = "app-features">
+                            <li>Frontend: <span className = "react-colour">React</span> + <span className = "bootstrap-colour">Bootstrap</span></li>
+                            <li>Backend: <span className = "rails-colour">Ruby On Rails</span></li>
+                            <li>Web Services: <span className = "aws-colour"> AWS </span>(image hosting), <span className = "heroku-colour">Heroku</span> (app hosting)</li>
+                            <li>Other: <span className = "giphy-colour"> GIPHY API</span></li>
+                        </ul>
+                        <div>Checkout the app here:</div>
+                        <div>Checkout the repo here:</div>
                     </div>
                 </div>
                 <div className = "col-lg-6 d-flex justify-content-center">
