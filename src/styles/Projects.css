@@ -25,6 +25,10 @@
   padding-left: 12px;
 }
 
+.projects-padding {
+  padding-top: 15px;
+}
+
 .responsive-img {
   width: 600px;
 }

@@ -20,7 +20,7 @@ const Projects = () => {
                     <div className = "projects-title the-hut-title">TheHut</div>
                 </div>
             </div>
-            <div className = "row">
+            <div className = "row projects-padding">
                 <div className = "col-lg-6 d-flex justify-content-center">
                     <img className = "responsive-img zoom-in" src = {TheHut1} alt = "TheHut mainpage"/>
                 </div>
@@ -31,7 +31,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className = "row">
+            <div className = "row projects-padding">
                 <div className = "col-lg-6 d-flex justify-content-center align-items-center">
                     <div className = "projects-body">
                         TheHut is a fullstack application using
@@ -50,7 +50,7 @@ const Projects = () => {
                     <div className = "projects-title blabber-title">blabber</div>
                 </div>
             </div>
-            <div className = "row">
+            <div className = "row projects-padding">
                 <div className = "col-lg-6 d-flex justify-content-center">
                     <img className = "responsive-img zoom-in" src = {blabber1} alt = "blabber homepage"/>
                 </div>
@@ -62,7 +62,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className = "row">
+            <div className = "row projects-padding">
                 <div className = "col-lg-6 d-flex justify-content-center align-items-center">
                     <div className = "projects-body">
                         blabber is a fullstack application with
