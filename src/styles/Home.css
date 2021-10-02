@@ -1,10 +1,27 @@
 .home-title {
-  font-size: 26px;
+  font-size: 30px;
   color: white;
 }
 
 .home-title-info {
   padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.home-projects-info,
+.home-technologies-info {
+  padding-top: 25px;
+}
+
+.home-technologies-items {
+  padding-bottom: 25px;
+}
+
+.margin-top {
+  margin-top: 34px;
+}
+
+.home-contact-info {
   padding-bottom: 25px;
 }
 
@@ -17,7 +34,8 @@
 }
 
 .home-body {
-  font-size: 20px;
+  font-size: 21px;
+  padding-top: 10px;
 }
 
 .home-hut {
@@ -31,11 +49,24 @@
 .home-tech-item {
   padding-left: 7px;
   padding-right: 7px;
-  font-size: 17px;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-size: 20px;
   color: white;
   background-color: #3a414b;
+  display: inline-block;
 }
 
 .github-logo:hover {
   opacity: 0.8;
+}
+
+.zoom-in {
+  transition: transform 0.2s;
+}
+
+.zoom-in:hover {
+  transform: scale(1.1);
 }

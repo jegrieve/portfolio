@@ -9,10 +9,10 @@ const Home = () => {
     return (
         <div className = "homepage-container container">
             <div className = "row d-flex justify-content-center home-title-info">
-                <div className = "col-8 d-flex justify-content-center">
+                <div className = "col-md-8 d-flex justify-content-center">
                     <div className = "home-title">Hey there, I'm James</div>
                 </div>
-                <div className = "col-8  d-flex justify-content-center">
+                <div className = "col-md-8 d-flex justify-content-center">
                     <div className = "home-info">
                         I'm a fullstack developer currently based in the greater Vancouver area. I am passionate about working on development projects, and learning
                         new technologies.
@@ -20,46 +20,44 @@ const Home = () => {
                 </div>
             </div>
             <hr/>
-            <div className = "row">
-                <div className = "col-12">
+            <div className = "row home-projects-info">
+                <div className = "col-md-12">
                     <div className = "home-title">Projects</div>
-                    <div className = "home-info">Projects i've worked on and talk about the stack.</div>
+                </div>
+            </div>
+            <div className = "row">
+                <div className = "col-md-6">
+                    <div className = "home-project-title home-hut">TheHut</div>
+                    <div>
+                        <img className = "zoom-in" src = {TheHut1} width = "450" alt = "TheHut mainpage"/>
+                    </div>
+                    <div className = "home-body">
+                    TheHut is a social website where users can post text, links, images and videos.
+                    Posts can then be sorted by most liked, newest, etc.
+                    </div>
+                    <div>Link to route</div>
+                </div>
+                <div className = "col-md-6">
+                    <div className = "home-project-title home-blabber">blabber</div>
+                    <div>
+                        <img className = "zoom-in" src = {blabber1} width = "450" alt = "blabber homepage"/>
+                    </div>
+                    <div className = "home-body">
+                    blabber is a social website, where users can send messages to others.
+                    Join servers, create channels, and chat with others.
+                    </div>
+                    <div>Link to route</div>
                 </div>
             </div>
 
-            <div className = "row">
-                <div className = "col-6">
-                    <div className = "home-project-title home-hut">TheHut</div>
-                </div>
-                <div className = "col-6">
-                    <div className = "home-project-title home-blabber">blabber</div>
-                </div>
-            </div>
-            <div className = "row">
-                <div className = "col-6">
-                    <img src = {TheHut1} width = "450" alt = "TheHut mainpage"/>
-                </div>
-                <div className = "col-6">
-                    <img src = {blabber1} width = "450" alt = "blabber homepage"/>
-                </div>
-            </div>
-            <div className = "row">
-                <div className = "col-6 home-body">
-                    TheHut is a social website where users can post text, links, images and videos.
-                    Posts can then be sorted by most liked, newest, etc.
-                </div>
-                <div className = "col-6 home-body">
-                    blabber is a social website, where users can send messages to others.
-                    Join servers, create channels, and chat with others.
-                </div>
-            </div>
-            <div className = "row">
-                <div className = "col-12">
+            <hr className = "margin-top" />
+            <div className = "row home-technologies-info">
+                <div className = "col-md-12">
                     <div className = "home-title">Technologies</div>
                 </div>
             </div>
-            <div className = "row">
-                <div className = "col-12 d-flex justify-content-between">
+            <div className = "row home-technologies-items">
+                <div className = "col-md-12">
                     <div className = "home-tech-item">Javascript</div>
                     <div className = "home-tech-item">React</div>
                     <div className = "home-tech-item">Ruby</div>
@@ -81,14 +79,14 @@ const Home = () => {
                 </div>
             </div>
             <hr/>
-            <div className = "row">
-                <div className = "col-6">
+            <div className = "row home-contact-info">
+                <div className = "col-md-6">
                     <div className = "home-title">Contact</div>
                     <div className = "home-info">
                         Send me an email at <a className = "contact-email" href="mailto: jegrieve7@gmail.com" target="_blank">jegrieve7@gmail.com</a>
                     </div>
                 </div>
-                <div className = "col-6 home-github d-flex align-items-center">
+                <div className = "col-md-6 home-github d-flex align-items-center">
                     <a href = "https://github.com/jegrieve">
                         <img className = "github-logo" src = {GithubLogo} width = "50" alt = "Github logo link"/>
                     </a>
