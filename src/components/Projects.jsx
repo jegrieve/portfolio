@@ -33,7 +33,7 @@ const Projects = () => {
                             <li>Posts contain text/images/videos.</li>
                             <li>Like posts, and sort by most-liked, newest, etc.</li>
                             <li>Comment on posts, aswell as reply to comments.</li>
-                            <li>View posts from different boards.</li>
+                            <li>View posts belonging to a specific board.</li>
                         </ul>
                     </div>
                 </div>
@@ -47,8 +47,8 @@ const Projects = () => {
                             <li>Backend: <span className = "rails-colour">Ruby On Rails</span></li>
                             <li>Web Services: <span className = "aws-colour"> AWS </span>(image hosting), <span className = "heroku-colour">Heroku</span> (app hosting)</li>
                         </ul>
-                        <div>Checkout the app here:</div>
-                        <div>Checkout the repo here:</div>
+                        <div>Checkout the app here</div>
+                        <div>Checkout the Github repo <a href = "https://github.com/jegrieve/TheHut">here</a></div>
                     </div>
                 </div>
                 <div className = "col-lg-6 d-flex justify-content-center">
@@ -89,7 +89,7 @@ const Projects = () => {
                             <li>Other: <span className = "giphy-colour"> GIPHY API</span></li>
                         </ul>
                         <div>Checkout the app here:</div>
-                        <div>Checkout the repo here:</div>
+                        <div>Checkout the Github repo <a href= "https://github.com/jegrieve/blabber">here</a>.</div>
                     </div>
                 </div>
                 <div className = "col-lg-6 d-flex justify-content-center">
