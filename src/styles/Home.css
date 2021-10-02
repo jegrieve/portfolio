@@ -6,3 +6,31 @@
 .home-info {
   font-size: 22px;
 }
+
+.home-project-title {
+  font-size: 24px;
+}
+
+.home-body {
+  font-size: 20px;
+}
+
+.home-hut {
+  color: #f9a826;
+}
+
+.home-blabber {
+  color: #f50057;
+}
+
+.home-tech-item {
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 17px;
+  color: white;
+  background-color: #3a414b;
+}
+
+.github-logo:hover {
+  opacity: 0.8;
+}

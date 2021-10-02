@@ -52,7 +52,7 @@ const Projects = () => {
             </div>
             <div className = "row">
                 <div className = "col-6 d-flex justify-content-center">
-                    <img src = {blabber1} width = "600" alt = "Showing an example post"/>
+                    <img src = {blabber1} width = "600" alt = "blabber homepage"/>
                 </div>
                 <div className = "col-6 d-flex justify-content-center align-items-center">
                     <div className = "projects-body">
@@ -73,7 +73,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className = "col-6 d-flex justify-content-center">
-                    <img src = {blabber2} width = "600" alt = "Showing an example post"/>
+                    <img src = {blabber2} width = "600" alt = "Showing an example channel with messages"/>
                 </div>
             </div>
         </div>
