@@ -1,8 +1,54 @@
+.projects-main-title {
+  font-size: 30px;
+  color: white;
+}
+
 .projects-title {
   font-size: 26px;
+  padding-left: 12px;
   color: white;
 }
 
 .projects-body {
   font-size: 21px;
+}
+
+.the-hut-title {
+  color: #f9a826;
+}
+
+.blabber-title {
+  color: #f50057;
+}
+
+.projects-body {
+  padding-left: 12px;
+}
+
+.responsive-img {
+  width: 600px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .responsive-img {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .responsive-img {
+    width: 650px;
+  }
+}
+
+/* @media only screen and (max-width: 991px) {
+  .responsive-img {
+    width: 500px;
+  }
+} */
+
+@media only screen and (max-width: 760px) {
+  .responsive-img {
+    width: 400px;
+  }
 }
