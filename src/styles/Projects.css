@@ -29,6 +29,14 @@
   width: 600px;
 }
 
+.zoom-in {
+  transition: transform 0.2s;
+}
+
+.zoom-in:hover {
+  transform: scale(1.1);
+}
+
 @media only screen and (max-width: 1200px) {
   .responsive-img {
     width: 400px;
@@ -40,12 +48,6 @@
     width: 650px;
   }
 }
-
-/* @media only screen and (max-width: 991px) {
-  .responsive-img {
-    width: 500px;
-  }
-} */
 
 @media only screen and (max-width: 760px) {
   .responsive-img {

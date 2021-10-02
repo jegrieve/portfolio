@@ -22,7 +22,7 @@ const Projects = () => {
             </div>
             <div className = "row">
                 <div className = "col-lg-6 d-flex justify-content-center">
-                    <img className = "responsive-img" src = {TheHut1} alt = "TheHut mainpage"/>
+                    <img className = "responsive-img zoom-in" src = {TheHut1} alt = "TheHut mainpage"/>
                 </div>
                 <div className = "col-lg-6 d-flex justify-content-center align-items-center">
                     <div className = "projects-body">
@@ -41,7 +41,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className = "col-lg-6 d-flex justify-content-center">
-                    <img className = "responsive-img" src = {TheHut2} alt = "Showing an example post"/>
+                    <img className = "responsive-img zoom-in" src = {TheHut2} alt = "Showing an example post"/>
                 </div>
             </div>
             <hr />
@@ -52,7 +52,7 @@ const Projects = () => {
             </div>
             <div className = "row">
                 <div className = "col-lg-6 d-flex justify-content-center">
-                    <img className = "responsive-img" src = {blabber1} alt = "blabber homepage"/>
+                    <img className = "responsive-img zoom-in" src = {blabber1} alt = "blabber homepage"/>
                 </div>
                 <div className = "col-lg-6 d-flex justify-content-center align-items-center">
                     <div className = "projects-body">
@@ -73,7 +73,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className = "col-lg-6 d-flex justify-content-center">
-                    <img className = "responsive-img" src = {blabber2} alt = "Showing an example channel with messages"/>
+                    <img className = "responsive-img zoom-in" src = {blabber2} alt = "Showing an example channel with messages"/>
                 </div>
             </div>
         </div>
