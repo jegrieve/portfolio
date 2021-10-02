@@ -20,3 +20,13 @@
   margin: 0;
   padding-top: 15px;
 }
+
+.nav-item-navlink {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item-navlink:hover {
+  color: white;
+  text-decoration: underline;
+}
