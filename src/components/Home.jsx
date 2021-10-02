@@ -8,13 +8,14 @@ const Home = () => {
 
     return (
         <div className = "homepage-container container">
-            <div className = "row d-flex justify-content-center">
+            <div className = "row d-flex justify-content-center home-title-info">
                 <div className = "col-8 d-flex justify-content-center">
-                    <div className = "home-title">Hey, I'm James</div>
+                    <div className = "home-title">Hey there, I'm James</div>
                 </div>
                 <div className = "col-8  d-flex justify-content-center">
                     <div className = "home-info">
-                        I am a Fullstack Developer currently looking for opportunities(contact only section) in Fullstack development. I am passionate about creating different programming projects.
+                        I'm a fullstack developer currently based in the greater Vancouver area. I am passionate about working on development projects, and learning
+                        new technologies.
                     </div>
                 </div>
             </div>

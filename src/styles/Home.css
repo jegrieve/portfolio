@@ -3,6 +3,11 @@
   color: white;
 }
 
+.home-title-info {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 .home-info {
   font-size: 22px;
 }

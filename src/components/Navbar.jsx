@@ -7,11 +7,11 @@ const Navbar = () => {
     return (
         <div className = "site-navbar container">
           <div className = "row">
-            <div className = "col-6" >
+            <div className = "col-sm-6" >
               <div className = "home-name">James Grieve</div>
               <div className = "home-dev">Full Stack Developer</div>
             </div>
-                <div className = "col-6 d-flex justify-content-center align-items-center">
+                <div className = "col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
                     <div className = "nav-items d-flex justify-content-around">
                         <NavLink className = "nav-item-navlink" to = {"/"}>Home</NavLink>
                         <NavLink className = "nav-item-navlink" to = {"/projects"}>Projects</NavLink>
