@@ -1,0 +1,18 @@
+.contact-title {
+  font-size: 26px;
+  color: white;
+}
+
+.contact-body {
+  font-size: 22px;
+}
+
+.contact-email {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-email:hover {
+  color: white;
+  text-decoration: underline;
+}
