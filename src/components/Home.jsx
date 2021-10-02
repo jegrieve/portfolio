@@ -72,7 +72,7 @@ const Home = () => {
                     <div className = "home-tech-item">Heroku</div>
                     <div className = "home-tech-item">npm</div>
                     <div className = "home-tech-item">git</div>
-                    <div className = "home-tech-item">Api</div>
+                    <div className = "home-tech-item">API</div>
                     <div className = "home-tech-item">AWS</div>
                     <div className = "home-tech-item">Jest</div>
                     <div className = "home-tech-item">React Testing Library</div>
