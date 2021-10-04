@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.7a2be649.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.1af3281c.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.1af3281c.chunk.js.map",
+    "runtime-main.js": "/myPortfolio/static/js/runtime-main.5a6721cc.js",
+    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.5a6721cc.js.map",
+    "static/css/2.818011ed.chunk.css": "/myPortfolio/static/css/2.818011ed.chunk.css",
+    "static/js/2.04e4de42.chunk.js": "/myPortfolio/static/js/2.04e4de42.chunk.js",
+    "static/js/2.04e4de42.chunk.js.map": "/myPortfolio/static/js/2.04e4de42.chunk.js.map",
+    "index.html": "/myPortfolio/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/myPortfolio/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.7a2be649.chunk.css.map": "/myPortfolio/static/css/main.7a2be649.chunk.css.map",
+    "static/js/2.04e4de42.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.04e4de42.chunk.js.LICENSE.txt",
+    "static/media/TheHut1.2612d54f.PNG": "/myPortfolio/static/media/TheHut1.2612d54f.PNG",
+    "static/media/TheHut2.2eb1fe63.PNG": "/myPortfolio/static/media/TheHut2.2eb1fe63.PNG",
+    "static/media/blabber1.7f0b49f6.PNG": "/myPortfolio/static/media/blabber1.7f0b49f6.PNG",
+    "static/media/blabber2.97f95383.PNG": "/myPortfolio/static/media/blabber2.97f95383.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a6721cc.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.04e4de42.chunk.js",
+    "static/css/main.7a2be649.chunk.css",
+    "static/js/main.1af3281c.chunk.js"
+  ]
+}
