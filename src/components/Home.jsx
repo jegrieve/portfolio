@@ -29,13 +29,16 @@ const Home = () => {
             <div className = "row">
                 <div className = "col-md-12 col-lg-6">
                     <div className = "home-project-title home-hut">TheHut</div>
-                    <div>
-                        <img className = "zoom-in" src = {TheHut1} width = "450" alt = "TheHut mainpage"/>
+                    <div className = "project-image">
+                        <a href = "https://the-hut.herokuapp.com/" target="_blank">
+                            <img className = "zoom-in" src = {TheHut1} width = "470" alt = "TheHut mainpage"/>
+                        </a>
                     </div>
                     <div className = "home-body">
-                    TheHut is a social website where users share text, images and videos.
+                    TheHut is a social website where users can post text, images and videos.
+                    Posts can be liked, commented on, and sorted by popularity.
                     </div>
-                    <div>
+                    <div className = "nav-link-project">
                         <NavHashLink to = {"/projects#TheHut"} > 
                             <button className = "btn btn-warning the-hut-details-btn">View More Details</button>
                         </NavHashLink>
@@ -43,13 +46,16 @@ const Home = () => {
                 </div>
                 <div className = "col-md-12 col-lg-6">
                     <div className = "home-project-title home-blabber">blabber</div>
-                    <div>
-                        <img className = "zoom-in" src = {blabber1} width = "450" alt = "blabber homepage"/>
+                    <div className = "project-image">
+                        <a href = "https://blab-ber.herokuapp.com/" target="_blank">
+                            <img className = "zoom-in" src = {blabber1} width = "470" alt = "blabber homepage"/>
+                        </a>
                     </div>
                     <div className = "home-body">
                     blabber is a community messaging app, where users can send messages to others, in various communities.
+                    Send images, videos, GIFs and emojis.
                     </div>
-                    <div>
+                    <div className = "nav-link-project">
                         <NavHashLink to = {"/projects#blabber"} > 
                             <button className = "btn btn-danger blabber-details-btn">View More Details</button>
                         </NavHashLink>
@@ -77,7 +83,7 @@ const Home = () => {
                     <div className = "home-tech-item">Webpack</div>
                     <div className = "home-tech-item">Heroku</div>
                     <div className = "home-tech-item">npm</div>
-                    <div className = "home-tech-item">git</div>
+                    <div className = "home-tech-item">Git</div>
                     <div className = "home-tech-item">API</div>
                     <div className = "home-tech-item">AWS</div>
                     <div className = "home-tech-item">Jest</div>
@@ -94,7 +100,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className = "col-md-6 home-github d-flex align-items-center">
-                    <a href = "https://github.com/jegrieve">
+                    <a href = "https://github.com/jegrieve" target="_blank">
                         <img className = "github-logo" src = {GithubLogo} width = "50" alt = "Github logo link"/>
                     </a>
                 </div>

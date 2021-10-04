@@ -94,6 +94,16 @@
   color: white;
 }
 
+.app-link {
+  color: white;
+  text-decoration: none;
+}
+
+.app-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .padding-bottom {
   padding-bottom: 50px;
 }

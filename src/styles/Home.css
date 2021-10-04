@@ -4,17 +4,17 @@
 }
 
 .home-title-info {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .home-projects-info,
 .home-technologies-info {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 .home-technologies-items {
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .margin-top {
@@ -22,7 +22,7 @@
 }
 
 .home-contact-info {
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .home-info {
@@ -35,7 +35,7 @@
 }
 
 .home-body {
-  font-size: 21px;
+  font-size: 20px;
   padding-top: 10px;
 }
 
@@ -50,14 +50,13 @@
 .home-tech-item {
   padding-left: 7px;
   padding-right: 7px;
-  margin-left: 7px;
-  margin-right: 7px;
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin: 7px;
+  padding-bottom: 3px;
   font-size: 20px;
   color: white;
   background-color: #3a414b;
   display: inline-block;
+  border-radius: 25px;
 }
 
 .github-logo:hover {
@@ -69,7 +68,7 @@
 }
 
 .zoom-in:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .the-hut-details-btn {
@@ -91,4 +90,12 @@
 .blabber-details-btn:hover {
   color: black;
   background-color: #f50057;
+}
+
+.project-image {
+  margin-top: 4px;
+}
+
+.nav-link-project {
+  margin-top: 4px;
 }
