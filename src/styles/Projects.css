@@ -23,6 +23,11 @@
   font-weight: bold;
 }
 
+.thoughts-title {
+  color: rgb(211, 211, 211);
+  font-weight: bold;
+}
+
 .projects-body {
   padding-left: 12px;
 }
@@ -81,6 +86,21 @@
 
 .bootstrap-colour {
   color: rgb(126, 18, 249);
+  font-weight: bold;
+}
+
+.redux-colour {
+  color: #764abc;
+  font-weight: bold;
+}
+
+.material-ui-colour {
+  color: #007fff;
+  font-weight: bold;
+}
+
+.express-colour {
+  color: #fcdc00;
   font-weight: bold;
 }
 
