@@ -47,6 +47,10 @@
   color: #f50057;
 }
 
+.home-thoughts {
+  color: rgb(211, 211, 211);
+}
+
 .home-tech-item {
   padding-left: 7px;
   padding-right: 7px;
@@ -92,10 +96,25 @@
   background-color: #f50057;
 }
 
+.the-thoughts-details-btn {
+  background-color: rgb(211, 211, 211);
+  color: white;
+  border: none;
+}
+
+.the-thoughts-details-btn:hover {
+  background-color: rgb(211, 211, 211);
+  color: black;
+}
+
 .project-image {
   margin-top: 4px;
 }
 
 .nav-link-project {
   margin-top: 4px;
+}
+
+.big-button {
+  font-size: 23px;
 }
